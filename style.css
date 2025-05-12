@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+guh3{
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+p{
+    color: #ee0101;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#para1id{
+    color: #5e0101;
+    font-size: 1.5em;
+}
+
+#para1{
+    color: #000;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.paracommon{
+    font-size: 50px;
+}
+
+.para2{
+    color: #006674;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.para3{
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
