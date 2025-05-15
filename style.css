@@ -1,45 +1,42 @@
+/* Universal Selector */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-guh3{
-    color: #333;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    background-color: antiquewhite;
+/* Here I have used design of body */
+body {
+    background-color: lightgray;
 }
 
-p{
-    color: #ee0101;
-    font-size: 1em;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-#para1id{
-    color: #5e0101;
-    font-size: 1.5em;
+/*This is comment*/
+/* Here we are learning selectors and css comments */
+
+/* Group Selector */
+h1, h3, h4, p, span {
+    font-size: 10px;
+    border: 2px solid red;
+    padding: 5px;
+    margin: 5px;
 }
 
-#para1{
-    color: #000;
-    font-size: 1.5em;
-    line-height: 1.5;
-    margin-bottom: 20px;
+/* decendant selector */
+div p {
+    font-size: 15px;
+    border: 5px solid rgb(60, 0, 128);
 }
 
-.paracommon{
-    font-size: 50px;
+div span {
+    border: 10px solid black;
 }
 
-.para2{
-    color: #006674;
-    line-height: 1.5;
-    margin-bottom: 20px;
+div>h4 {
+    border: 5px solid darkviolet;
 }
 
-.para3{
-    color: #000;
-    line-height: 1.5;
-    margin-bottom: 20px;
+/* pseudo class seelctor */
+h1:hover {
+    font-size: 20px;
+    color: rgb(17, 1, 241);
+    text-align: center;
 }
